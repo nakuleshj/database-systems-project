@@ -6,7 +6,7 @@ This project is a database-backed application designed for a restaurant environm
 - `sql/schema.sql`: Oracle DDL with primary keys, foreign keys, checks, and indexes
 - `sql/sample_data.sql`: Representative sample inserts
 - `sql/reset.sql`: Safe reset script that drops tables in dependency order
-- `Restaurant_Order_Management_Report.docx`: Final report
+- `Restaurant_Order_Management_Report.pdf`: Final report
 - `assets/restaurant_er_diagram.png`: ER diagram image
 
 ## Core Business Scope
