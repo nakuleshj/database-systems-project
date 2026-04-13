@@ -25,3 +25,6 @@ The design is normalized to 3NF:
 - repeating groups are removed through `order_items`
 - payment data is stored separately from orders
 - non-key attributes depend on the key, the whole key, and nothing but the key
+
+## Submission Link
+This repository was created for the Final Database Project submission.
