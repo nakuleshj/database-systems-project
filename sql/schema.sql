@@ -83,3 +83,9 @@ CREATE TABLE payments (
     CONSTRAINT fk_payments_order
         FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
+
+
+CREATE INDEX idx_orders_datetime ON orders(order_datetime);
+CREATE INDEX idx_orders_status ON orders(order_status);
+CREATE INDEX idx_order_items_order ON order_items(order_id);
+CREATE INDEX idx_menu_items_category ON menu_items(category_id);
